@@ -1,0 +1,9 @@
+participant User as usr
+participant Server as server
+participant Database as db
+
+usr->server: GET /product/{id}
+Note over server: Here server does\nvalidation of product {id}\nand user JWT auth
+server->db: Get product\n(SELECT * FROM product WHERE id={id})
+db-->server: Product object
+server-->usr: Product object

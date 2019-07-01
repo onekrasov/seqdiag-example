@@ -1,0 +1,28 @@
+{
+  "name": "seqdiag-example",
+  "version": "1.0.0",
+  "description": "Sequence diagrams as a code example",
+  "main": "build.js",
+  "scripts": {
+    "start": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekgasov/seqdiag-example.git"
+  },
+  "keywords": [
+    "sequence",
+    "diagrams",
+    "uml"
+  ],
+  "author": "Alexey Nekrasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekgasov/seqdiag-example/issues"
+  },
+  "homepage": "https://github.com/nekgasov/seqdiag-example#readme",
+  "dependencies": {
+    "websequencediagrams": "^0.1.1"
+  }
+}
