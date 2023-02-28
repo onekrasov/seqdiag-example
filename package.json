@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/nekgasov/seqdiag-example#readme",
   "dependencies": {
-    "websequencediagrams": "^0.1.1"
+    "websequencediagrams": "^3.0.0"
   }
 }
